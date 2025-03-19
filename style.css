@@ -1,5 +1,5 @@
 body {
-  background-color: black;
+  background-color: white;
   text-align: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -13,17 +13,23 @@ html{
   width: 100%;
 }
 
+.title{
+  padding-right: 50px;
+}
+
 #myCanvas {
-  border: 1px solid black;
+  border: 5px solid rgb(167, 94, 57);
+  border-radius: 25px;
 }
 
 .container{
   display: flex;
   flex-wrap: wrap;
   background-color: white;
-  justify-content: space-around;
+  justify-content: center;
   align-items: flex-start;
   padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 .pic{
@@ -33,8 +39,10 @@ html{
   border: 1px solid black;
 }
 
-h2{
-  color: black;
+
+h2, h3, p{
+  color: rgb(176, 78, 56);
+  font-family: 'mansalva';
 }
 
 #start{
@@ -43,4 +51,6 @@ h2{
 
 #end{
   text-align: right;
+  background-color: rgb(255, 208, 168);
+   border-radius: 25px;
 }
